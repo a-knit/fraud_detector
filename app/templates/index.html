@@ -1,0 +1,19 @@
+<head>
+    <title>omg Fraud</title>
+    <link rel='stylesheet' type='text/css' href='../static/bootstrap.min.css'>
+</head>
+
+<body>
+    <br>
+    <div align='center'>
+        <button type="button" class="{{button}}" text-align=center style="width:50%; height: 10%; font-size:300%">Fraud Dashboard</button>
+        <br>
+        <br>
+        {{text}} <b>{{pred}}</b>
+        <br>
+        <br>
+        <p text-align=center>The fraud risk level is <b>{{level}}</b></p>
+        <br>
+        <img src={{ url_for('static', filename = pic) }} height=600px text-align=center>
+    </div>
+</body>
